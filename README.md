@@ -2,6 +2,22 @@
 
 Здесь собраны некоторые проекты выполненные во время обучения по Data Science
 
+## CV Проекты
+
+Название проекта | Цель и задачи | Стек
+--- | --- | ---
+[Определение возраста покупателей](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/Text_classification/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2%20%D0%BF%D0%BE%20%D1%82%D0%BE%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8.ipynb) | Построить модель, которая по фотографии определит приблизительный возраст человека. Необходимо добиться значения MAE на тестовой выборке не больше 8. | Keras, Pandas, Matplotlib, Numpy |
+
+## Классификация текста
+Название проекта | Цель и задачи | Стек
+--- | --- | ---
+[Классификация комментариев по токсичности](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/Text_classification/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2%20%D0%BF%D0%BE%20%D1%82%D0%BE%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8.ipynb) | Обучить модель классифицировать комментарии на позитивные и негативные для интернет-магазина. Построить модель со значением метрики качества *F1* не меньше 0.75. | Pandas, Numpy, Transformers, Torch, Re, NLTK, Sklearn      |
+
+## Прогнозирование временных рядов
+Название проекта | Цель и задачи | Стек
+--- | --- | ---
+[Прогнозирование заказов такси](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/Time-series_analysis/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8.ipynb) | Спрогнозировать количество заказов такси на следующий час, построить модель для такого предсказания. Значение метрики *RMSE* на тестовой выборке должно быть не больше 48. | Pandas, Numpy, Matplotlib, Statsmodels, Sklearn, LightGBM |
+
 ## EDA Проекты
 Название проекта | Цель и задачи | Стек
 --- | --- | ---
@@ -20,13 +36,5 @@
 [Отток клиентов из банка](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/ML_2/%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2.ipynb) | Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Нам предоставлены исторические данные о поведении клиентов и расторжении договоров с банком. | Pandas, Sklearn.linear_model, Sklearn.metrics, Sklearn.preprocessing
 [Рекомендация тарифов](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/ML_1/%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2.ipynb) | Нужно проанализировать поведение клиентов и предложить пользователям новый тариф, построить модель для задачи классификации, которая выберет подходящий тариф.  | Pandas, Sklearn.tree, Sklearn.ensemble, Sklearn.metrics
 
-# Классификация текста
-Название проекта | Цель и задачи | Стек
---- | --- | ---
-[Классификация комментариев по токсичности](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/Text_classification/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2%20%D0%BF%D0%BE%20%D1%82%D0%BE%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8.ipynb) | Обучить модель классифицировать комментарии на позитивные и негативные для интернет-магазина. Построить модель со значением метрики качества *F1* не меньше 0.75. | Pandas, Numpy, Transformers, Torch, Re, NLTK, Sklearn      |
 
-# Прогнозирование временных рядов
-Название проекта | Цель и задачи | Стек
---- | --- | ---
-[Прогнозирование заказов такси](https://github.com/HappyDari/Yandex.Practicum/blob/09b83464e3be941ee846ad70df8b9ea5c1fc5df8/Time-series_analysis/%D0%9F%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8.ipynb) | Спрогнозировать количество заказов такси на следующий час, построить модель для такого предсказания. Значение метрики *RMSE* на тестовой выборке должно быть не больше 48. | Pandas, Numpy, Matplotlib, Statsmodels, Sklearn, LightGBM |
 
